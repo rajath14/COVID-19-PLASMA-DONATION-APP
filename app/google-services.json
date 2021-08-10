@@ -1,0 +1,39 @@
+{
+  "project_info": {
+    "project_number": "1023091326927",
+    "project_id": "plasma-67009",
+    "storage_bucket": "plasma-67009.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:1023091326927:android:116d9c66cab17baf859cba",
+        "android_client_info": {
+          "package_name": "com.rajathcr.pda"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "1023091326927-drln747ug20ji6seuhn1ne286j01vi92.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyDaRK_mnVNLY-QpdH-ftj31LJvXbuT8wuQ"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "1023091326927-drln747ug20ji6seuhn1ne286j01vi92.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}

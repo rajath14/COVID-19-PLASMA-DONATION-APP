@@ -1,0 +1,74 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:orientation="vertical"
+    android:layout_height="match_parent"
+    tools:context=".AboutActivity">
+
+
+    <androidx.appcompat.widget.Toolbar
+        android:id="@+id/toolbar"
+        android:elevation="4dp"
+        android:theme="@style/ThemeOverlay.AppCompat.Dark.ActionBar"
+        app:popupTheme="@style/ThemeOverlay.AppCompat.Dark"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:background="#Be5025"/>
+
+    <ImageView
+        android:id="@+id/imageView"
+        android:layout_width="250dp"
+        android:layout_gravity="center"
+        android:layout_height="250dp"
+        app:srcCompat="@drawable/jss" />
+    <TextView
+        android:id="@+id/textView"
+        android:layout_width="321dp"
+        android:layout_height="200dp"
+        android:layout_marginStart="52dp"
+        android:gravity="center_vertical"
+        android:textSize="20sp"
+        android:textStyle="bold"
+        android:textColor="#000"
+        android:text="This is an open source app
+        which fills the gap between the patients
+and the Plasma donors\n" />
+
+
+    <TextView
+        android:id="@+id/textView1"
+        android:layout_width="321dp"
+        android:layout_height="50dp"
+        android:layout_marginStart="52dp"
+        android:gravity="start"
+        android:textSize="25sp"
+        android:textStyle="bold"
+        android:textColor="#000"
+        android:text="This app is made by-\n" />
+    <TextView
+        android:id="@+id/textView2"
+        android:layout_width="321dp"
+        android:layout_height="100dp"
+        android:layout_marginStart="52dp"
+        android:gravity="start"
+        android:textSize="20sp"
+        android:textStyle="bold"
+        android:textColor="#000"
+        android:text="1.Prajwal M Hulamani\n
+        \n2.Rajath C R" />
+
+    <TextView
+        android:id="@+id/textView3"
+        android:layout_width="321dp"
+        android:layout_height="100dp"
+        android:layout_marginStart="52dp"
+        android:gravity="center_vertical"
+        android:text="MAD MINI PROJECT 2021"
+        android:textAllCaps="true"
+        android:textColor="#000"
+        android:textSize="20sp"
+        android:textStyle="bold" />
+
+</LinearLayout>
